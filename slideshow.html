@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Nicky</title>
+        <meta charset="UTF-8">
+    
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+        <link href="css/slideshow.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <div class = "main">
+            <div class="italics">I</div>
+            <div class="highlight">Love</div>
+            <div class = "button" id='link'><a href="#player" onclick="javascript:togglePlayer();" title="Hello World!">You</a></div>
+            <div id='rotate'>&#10083;&#65039;</div>
+        </div>
+
+        <div class="scroll">
+            <!-- scroll down animation -->
+            <div class="container">
+                <div class="chevron"></div>
+                <div class="chevron"></div>
+                <div class="chevron"></div>
+                <span class="text">Scroll down</span>
+            </div>
+            <br>
+            <!-- The <iframe> (and video player) will replace this <div> tag. -->
+            <div id="player"></div>
+        </div>
+    </body>
+
+    <footer>
+        <script src="js/script.js"></script>
+    </footer>
+</html>

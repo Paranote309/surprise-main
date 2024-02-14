@@ -32,7 +32,7 @@ function onYouTubeIframeAPIReady() {
   player = new YT.Player("player", {
     height: "auto",
     width: "auto",
-    videoId: "fEeCb-2vuzA",
+    videoId: "Zcbyqc8EMIU",
     playerVars: {
       playsinline: 1,
       controls: 1,
@@ -72,4 +72,13 @@ function onPlayerStateChange(event) {
       location.href = "#player";
       break;
   }
+}
+
+/* ========================================== Website Functionality ========================================== */
+
+function togglePlayer() {
+  // display  and play video
+  player.playVideo();
+  document.getElementById("player").style.display = "block";
+  document.getElementsByClassName("container")[0].style.display = "block";
 }

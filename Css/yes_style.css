@@ -8,6 +8,10 @@ body {
     background-color: #ff758f;
   }
 
+  
+
+  /* ========================================== Classes ========================================== */
+
   .valentines-day-card {
     position: relative;
     width: 400px;
@@ -184,7 +188,59 @@ body {
   }
   
   .text:hover:before {
-    content:"Remember not to eat too much Ch're sweet enough already.";
+    content:"Just thinking about you puts a smile on my face. ";
     font-size:25px;
   
   }
+
+  .buttons {
+    display: flex;
+    flex-direction: row;
+ 
+   
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+  .btn {
+    background-color: #ffffff;
+    color: rgb(233, 48, 48);
+    padding: 15px 32px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    font-size: 36px;
+    font-family: 'Pacifico', cursive;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+ 
+
+
+/* ========================================== Ids ========================================== */
+#link:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+#rotate {
+  transition-duration: .9s;
+  border-radius: 6vw;
+  width: fit-content;
+}
+
+#rotate:hover {
+  transform: rotate(360deg);
+}
+
+#player {
+  display: none;
+  width: 100%;
+  height: 100vh;
+}
