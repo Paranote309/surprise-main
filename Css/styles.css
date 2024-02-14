@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 90vh;
-    background-color: rgb(189, 225, 122);
+    background-color: #ff758f;
 }
 
 #noButton {
@@ -21,6 +22,7 @@ body {
     font-family: 'Nunito';
     font-size: 40px;
     font-weight: bold;
+    font-family: 'Pacifico', cursive;
     color: rgb(255, 255, 255);
     text-align: center;
     margin-top: 20px;
@@ -43,6 +45,7 @@ body {
     text-align: center;
     display: inline-block;
     font-size: 16px;
+    font-family: 'Pacifico', cursive;
     margin: 4px 2px;
     cursor: pointer;
     border: none;
